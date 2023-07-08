@@ -14,7 +14,7 @@ int main() {
 
 	for (int i = 0; i < N; i++) {
 		std::cin >> a >> b;
-		memset(alpha, 0, 26);
+		memset(alpha, 0, sizeof(int) * 26);
 		if (a.length() != b.length()) {
 			res = "Impossible\n";
 		}
